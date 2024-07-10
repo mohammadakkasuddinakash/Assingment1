@@ -70,6 +70,7 @@ body{
     line-height: 15px;
     letter-spacing: 0%;
     text-align: center;
+    cursor: pointer;
 }
 .btn-container{
     padding: 20px;
@@ -108,7 +109,7 @@ body{
     text-align: center;
     color: rgb(13, 19, 33);
     opacity: 0.7;
-    padding-bottom: 30px;
+    padding: 30px 60px;
 }
 .card-content{
     text-align: center;
@@ -147,11 +148,20 @@ body{
  /* .learn-btn{
     text-align: left;
  } */
+  .single-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: justify;
+    padding: 48px;
+    width: 830px;
+  }
 .white-btn{
     padding: 12px 20px 12px 20px;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
+    margin-top: 20px;
 }
 .layer1{
     width: 220.56px;
@@ -177,13 +187,13 @@ body{
 }
 .vedio-container h1{
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 28px;
-font-weight: 800;
-line-height: 33px;
-letter-spacing: 0%;
-text-align: center;
-padding: 10px;
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 10px;
 }
 .vedio-container p{
     color: rgb(13, 19, 33);
@@ -240,16 +250,7 @@ iframe{
     padding: 40px 20px 20px 20px;
 }
 .target-content p{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 12;
-    font-weight: 300;
-    line-height: 20px;
-    letter-spacing: 0%;
-    text-align: center;
-    opacity: 0.7;
-    width: 830px;
-    margin: 0 auto;
+    
 
 }
 .card-frame1{
@@ -279,14 +280,14 @@ iframe{
 }
 .card-frame img{
     position: relative;
-    width: 56px;
-    height: 56px;
+    min-width: 70px;
+    max-height: 50px;
     padding-bottom: 5px;
 }
 .card-frame h1{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 800;
     line-height: 36px;
     letter-spacing: 0%;
@@ -296,11 +297,14 @@ iframe{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 20px;
     letter-spacing: 0%;
-    text-align: left;
+    text-align: center;
     opacity: 0.7;
+    width: 830px;
+    margin: 0 auto;
+    
     
 }
 .card-frame1 a{
@@ -354,4 +358,93 @@ iframe{
 }
 .cards-container .card-frame3 h1,p,a{
     padding: 5px 0;
+}
+.feedback-container{
+    width: 830px;
+    margin: 30px auto;
+    background-image: url('/assets/handshake.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    background-color:rgb(63, 58, 58);
+    background-blend-mode: overlay;
+    
+}
+.support-content{
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-bottom: 10px; */
+    padding-top: 10px;
+}
+.support-content h1{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.support-content p{color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    padding: 10px auto;
+}
+.input-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.input-content input{
+    width: 350px;
+    height: 35px;
+    padding: 15px 16px 15px 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin: 0px 16px;
+}
+.input-content button{
+    padding: 10px 14px 10px 14px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+   
+}
+footer h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+ .icon-content{
+    width: 157.01px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+ }
+#foot-container{
+    width: 830px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
