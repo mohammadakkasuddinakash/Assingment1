@@ -12,7 +12,7 @@ body{
     margin: 0 auto;
     width: 1250px;
     height: 652px;
-    background-image: url('/assets/Hero-bg.png');
+    background-image: url('../assets/Hero-bg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,14 +140,6 @@ body{
     padding-bottom: 2px;
 
 }
-/* .card-sub-container{
-    display: flex;
-    flex-direction: column;
-
-} */
- /* .learn-btn{
-    text-align: left;
- } */
   .single-card{
     display: flex;
     flex-direction: row;
@@ -237,7 +229,7 @@ iframe{
     margin: 0 auto;
     text-align: center;
     padding: 20px;
-    /* display: flex; */
+
 }
 .target-content h1{
     color: rgb(13, 19, 33);
@@ -249,10 +241,7 @@ iframe{
     text-align: center;
     padding: 40px 20px 20px 20px;
 }
-.target-content p{
-    
 
-}
 .card-frame1{
     background-color: rgba(255, 76, 30, 0.05);
     width: 240px;
@@ -362,7 +351,7 @@ iframe{
 .feedback-container{
     width: 830px;
     margin: 30px auto;
-    background-image: url('/assets/handshake.jpg');
+    background-image: url('../assets/handshake.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
