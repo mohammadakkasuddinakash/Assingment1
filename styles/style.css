@@ -169,3 +169,189 @@ body{
 .card-sub-container{
     padding: 0 40px;
 }
+.vedio-container{
+    width: 830px;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+}
+.vedio-container h1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 28px;
+font-weight: 800;
+line-height: 33px;
+letter-spacing: 0%;
+text-align: center;
+padding: 10px;
+}
+.vedio-container p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    padding: 15px;
+    padding-bottom: 30px;
+
+}
+.vedio{
+    width: 830px;
+    margin: 0 auto;
+    padding-top: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+iframe{
+    width: 100%;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 32px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    background: url(Jhankar);
+
+}
+.target-content{
+    width: 830;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    /* display: flex; */
+}
+.target-content h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 40px 20px 20px 20px;
+}
+.target-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    width: 830px;
+    margin: 0 auto;
+
+}
+.card-frame1{
+    background-color: rgba(255, 76, 30, 0.05);
+    width: 240px;
+    height: auto;
+    padding: 25px;
+    border-radius: 16px;
+    margin: 0 10px;
+
+}
+.card-frame2{
+    width: 240px;
+    background-color:rgba(0, 76, 232, 0.05);
+    height: auto;
+    padding: 25px;
+    border-radius: 16px;
+    margin: 0 10px;
+}
+.card-frame3{
+    background-color: rgba(255, 223, 0, 0.05);;
+    width: 240px;
+    height: auto;
+    padding: 25px;
+    border-radius: 16px;
+    margin: 0 10px;
+}
+.card-frame img{
+    position: relative;
+    width: 56px;
+    height: 56px;
+    padding-bottom: 5px;
+}
+.card-frame h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.card-frame p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    
+}
+.card-frame1 a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    padding-top: 20px;
+    margin: 50px 0;
+}
+.card-frame2 a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    padding-top: 10px;
+}
+.card-frame3 a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    padding-top: 2px;
+    
+}
+.cards-container{
+    width: 880px ;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+.cards-container .card-frame1 p,a{
+    padding: 20px 0;
+}
+.cards-container .card-frame2 p,a{
+    padding: 15px 0;
+}
+.cards-container .card-frame3 h1,p,a{
+    padding: 5px 0;
+}
